@@ -1,0 +1,91 @@
+body {
+    margin: 5px;
+	background-color: darkblue;
+	color:white;
+	font-family: 'Glacial Indifference', sans-serif; 
+}
+
+.header{
+	grid-area:header;
+	background-color: transparent;
+	margin:80px;
+	text-align:center;
+}
+
+.posts{
+	display:table;
+	/* flex-direction: row; */
+}
+
+.post{
+	/* display:inline; */
+	display:table-cell;
+	background: cornflowerblue;
+	height:350px;
+	width:400px;
+	margin-top:30px;
+	margin-bottom:30px;
+	/* margin-left:20px; */
+	/* margin-right:20px; */
+	border: solid darkblue;
+	border-width:10px;
+	/* position: relative;
+	display: flex;
+	justify-content: center; */
+}
+
+
+/* #p2{
+	display:inline-block;
+	background-color: cornflowerblue;
+} */
+
+/* .posts{
+	display:inline-block;
+	background-color: cornflowerblue;
+	margin:20px;
+} */
+
+.footer{
+	grid-area:footer;
+	background-color: cornflowerblue;
+	margin:20px;
+}
+
+.footer:after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+h1{
+	font-size:40px;
+}
+
+h2{
+	font-size:24px;
+	text-align: center;
+	text-decoration: underline;
+} 
+
+ul{
+	list-style:none;
+	font-size:24px;
+}
+
+p{
+	font-size:18px;
+	margin-left:20px;
+	margin-right:40px;
+	text-align:justify;
+}
+
+img{
+	margin:20px;
+}
+
+.pepe li:before{ 
+	content: '\1F438'; margin-left: -20px; margin-right: 10px; 
+} 
+
+
