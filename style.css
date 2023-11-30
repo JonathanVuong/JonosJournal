@@ -60,7 +60,14 @@ body {
 	content: "";
 	clear: both;
 	display: table;
-  }
+}
+
+.footer p{
+	font-size:18px;
+	margin-left:20px;
+	margin-right:40px;
+	text-align:justify;
+}
 
 h1{
 	font-size:40px;
@@ -92,7 +99,7 @@ ul{
 
 p{
 	font-size:18px;
-	margin-left:20px;
+	margin-left:40px;
 	margin-right:40px;
 	text-align:justify;
 }
