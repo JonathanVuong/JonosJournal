@@ -7,7 +7,7 @@ body {
 
 .header{
 	grid-area:header;
-	background-color: transparent;
+	background-color: darkblue;
 	margin:80px;
 	text-align:center;
 }
@@ -108,8 +108,17 @@ img{
 	margin:20px;
 }
 
+.pepe{
+	background-color:darkblue;
+}
+
 .pepe li:before{ 
 	content: '\1F438'; margin-left: -20px; margin-right: 10px; 
 } 
+
+.article-footer{
+	height:100px;
+	background-color:darkblue;
+}
 
 
